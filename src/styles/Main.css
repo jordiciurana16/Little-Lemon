@@ -1,0 +1,151 @@
+section {
+    padding: 20px;
+    padding-left: 265px;
+    padding-right: 265px
+}
+
+section.hero {
+    background-color: #495E57;
+    height: 350px;
+}
+section.specials {
+    background-color: white;
+    height: 600px;
+}
+
+h1.primary {
+    margin-top: 30px;
+}
+
+.lead-text.highlight {
+    width: 250px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 40px;
+}
+
+.img-hero {
+    width: 335px;
+    height: 425px;
+    float: right;
+    margin-top: -225px;
+    border-radius: 20px;
+}
+
+.specials-header {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.specials-header h1 {
+    margin: 0;
+}
+
+.specials-header button {
+    margin-top: 0;
+    right: 0;
+}
+
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 225px;
+    height: 395px;
+    background-color: #edefee;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card img {
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.card-text {
+    padding: 20px;
+    position: relative;
+    padding-bottom: 40px; /* make room for h4 margin */
+}
+
+.card p {
+    margin-top: 5px;
+    color: #495E57;
+}
+
+.card-header {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15pt;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 19pt;
+    font-family: 'markazi';
+    margin-top: 0;
+}
+
+.card-header h5 {
+    margin-top: 0;
+    right: 0;
+    color: #ee9972;
+}
+
+section.testimonials {
+    background-color: #F4CE14;
+    height: 400px;
+}
+
+.title-center {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.review-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.review-card {
+    width: 170px;
+    height: 150px;
+    background-color: red;
+}
+
+.text-about {
+    font-size: 14pt;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: justify;
+    width: 350px;
+}
+
+.text-about > p {
+    margin-top: 20px;
+}
+
+.img-about {
+    width: 276px;
+    height: 338px;
+    float: right;
+    margin-top: -270px;
+    border-radius: 20px;
+    object-fit: cover; 
+}

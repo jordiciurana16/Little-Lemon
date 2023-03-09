@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*Font families*/
+
+@font-face {
+  font-family: 'Karla';
+  src: url('./assets/fonts/Karla-VariableFont_wght.ttf') format('truetype')
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Markazi';
+  src: url('./assets/fonts/MarkaziText-VariableFont_wght.ttf') format('truetype')
+}
+
+*{
+  margin: 0;
+  font-family: 'Karla', sans-serif; /*Default font*/
+}
+/*Title*/
+
+h1 { 
+  font-family: 'Markazi', sans-serif;
+  font-size: 40pt;
+  font-weight: 500;
+}
+
+h1.primary { 
+  color: #F4CE14;
+}
+
+/*Subitle*/
+
+h2 { 
+  font-family: 'Markazi', sans-serif;
+  font-size: 30pt;
+  font-weight: 400;
+}
+
+h2.highlight {
+  color: #EDEFEE;
+}
+
+/*Lead text*/
+
+.lead-text {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13pt;
+  font-weight: 500;
+}
+
+.lead-text.highlight{
+  color: #EDEFEE;
+}
+
+button {
+  font-size: 13pt;
+  font-weight: bolder;
+  background-color: #F4CE14;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  border-radius: 5px;
 }
