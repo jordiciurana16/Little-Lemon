@@ -5,6 +5,7 @@ import greeksalad from '../assets/img/greeksalad.jpg';
 import bruchetta from '../assets/img/bruchetta.jpg';
 import lemondessert from '../assets/img/lemondessert.jpg';
 import marioadriana from '../assets/img/marioadriana.jpg';
+import marioadrianb from '../assets/img/marioadrianb.jpg';
 
 function Main() {
   return (
@@ -57,7 +58,20 @@ function Main() {
       <section className='testimonials'>
         <h1 className='title-center'>Testimonials</h1>
         <div className='review-card-container'>
-          <div className='review-card'></div>
+          <div className='review-card'>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <img className='img-tetimonial' src="https://via.placeholder.com/50x50" alt="Reviewer"/>
+            <div class="reviewer-info">
+              <h4>John Doe</h4>
+              <p>Excellent service</p>
+            </div>
+          </div>
           <div className='review-card'></div>
           <div className='review-card'></div>
           <div className='review-card'></div>
@@ -71,7 +85,10 @@ function Main() {
           <p>After years of discussing our dream of opening a restaurant, we finally took the leap and created Little Lemon. Our menu is inspired by our travels to Greece, Turkey, and Lebanon. </p>
           <p>We hope you enjoy our delicious food and cozy atmosphere!</p>
         </div>
-        <img className='img-about' src={marioadriana}/>
+        <div container="image-container">
+          <img className='img-about-a' src={marioadriana}/>
+          <img className='img-about-b' src={marioadrianb}/>
+        </div>
       </section>
     </main>
   );
