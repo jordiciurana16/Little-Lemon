@@ -6,6 +6,10 @@ import bruchetta from '../assets/img/bruchetta.jpg';
 import lemondessert from '../assets/img/lemondessert.jpg';
 import marioadriana from '../assets/img/marioadriana.jpg';
 import marioadrianb from '../assets/img/marioadrianb.jpg';
+import reviewer1 from '../assets/img/reviewer1.jpg';
+import reviewer2 from '../assets/img/reviewer2.jpg';
+import reviewer3 from '../assets/img/reviewer3.jpg';
+import reviewer4 from '../assets/img/reviewer4.jpg';
 
 function Main() {
   return (
@@ -59,22 +63,67 @@ function Main() {
         <h1 className='title-center'>Testimonials</h1>
         <div className='review-card-container'>
           <div className='review-card'>
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
+            <div className="rating">
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
             </div>
-            <img className='img-tetimonial' src="https://via.placeholder.com/50x50" alt="Reviewer"/>
-            <div class="reviewer-info">
-              <h4>John Doe</h4>
-              <p>Excellent service</p>
+            <div className="info">
+              <div>
+                <img  className="img-review" src={reviewer1} alt="Example" />
+              </div>
+              <p className="name">John</p>
             </div>
+            <p className="description">Excellent food!</p>
           </div>
-          <div className='review-card'></div>
-          <div className='review-card'></div>
-          <div className='review-card'></div>
+          <div className='review-card'>
+            <div className="rating">
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+            </div>
+            <div className="info">
+              <div>
+                <img  className="img-review" src={reviewer2} alt="Example" />
+              </div>
+              <p className="name">William</p>
+            </div>
+            <p className="description">Nice place and views, good prices.</p>
+          </div>
+          <div className='review-card'>
+            <div className="rating">
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+            </div>
+            <div className="info">
+              <div>
+                <img  className="img-review" src={reviewer3} alt="Example" />
+              </div>
+              <p className="name">Chelsea</p>
+            </div>
+            <p className="description">Very cheap prices!</p>
+          </div>
+          <div className='review-card'>
+            <div className="rating">
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+              <span>&#x1F7CA;</span>
+            </div>
+            <div className="info">
+              <div>
+                <img  className="img-review" src={reviewer4} alt="Example" />
+              </div>
+              <p className="name">Harry</p>
+            </div>
+            <p className="description">Incredibly fast service!</p>
+          </div>
         </div>
       </section>
       <section className='about'>
