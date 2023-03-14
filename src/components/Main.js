@@ -42,7 +42,7 @@ function Main() {
             <div className='card-text'>
               <div className='card-header'>
                 <h3>Bruchetta</h3>
-                <h5>$5.99</h5>
+                <h5>$12.99</h5>
               </div>
               <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </p>
             </div>
@@ -52,7 +52,7 @@ function Main() {
             <div className='card-text'>
               <div className='card-header'>
                 <h3>Lemon dessert</h3>
-                <h5>$5</h5>
+                <h5>$4.99</h5>
               </div>
               <p>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
             </div>

@@ -140,13 +140,13 @@ section.testimonials {
 }
 
 .rating span {
-    font-size: 20px;
+    margin-left: -2px;
+    font-size: 24px;
 }
 
 .name {
     margin-left: 15px;
     font-weight: 600;
-    
 }
 
 .info {
